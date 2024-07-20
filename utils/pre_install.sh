@@ -15,7 +15,7 @@ preCheckProcess() {
     fi
 
     # bash command dependencies
-    needCommands=("curl" "jq" "docker" "docker-compose" "md5sum" "head" "base64")
+    needCommands=("curl" "jq" "docker" "md5sum" "head" "base64")
     # Check all commands are exist.
     for perCommand in "${needCommands[@]}"
     do
